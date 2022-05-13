@@ -53,14 +53,14 @@ public class TestFile {
     @org.junit.jupiter.api.Test
     public void testSumar() {
         System.out.println("sumar");
-        double x = 0.0;
-        double y = 0.0;
+        double x = 2;
+        double y = 3;
         Calculadora instance = new Calculadora();
-        double expResult = 0.0;
+        double expResult = 5;
         double result = instance.sumar(x, y);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -69,14 +69,14 @@ public class TestFile {
     @org.junit.jupiter.api.Test
     public void testRestar() {
         System.out.println("restar");
-        double x = 0.0;
-        double y = 0.0;
+        double x = 3;
+        double y = 2;
         Calculadora instance = new Calculadora();
-        double expResult = 0.0;
+        double expResult = 1;
         double result = instance.restar(x, y);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -85,14 +85,14 @@ public class TestFile {
     @org.junit.jupiter.api.Test
     public void testMultiplicar() {
         System.out.println("multiplicar");
-        double x = 0.0;
-        double y = 0.0;
+        double x = 2;
+        double y = 3;
         Calculadora instance = new Calculadora();
-        double expResult = 0.0;
+        double expResult = 6;
         double result = instance.multiplicar(x, y);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -101,14 +101,14 @@ public class TestFile {
     @org.junit.jupiter.api.Test
     public void testDividir() {
         System.out.println("dividir");
-        double x = 0.0;
-        double y = 0.0;
+        double x = 4;
+        double y = 2;
         Calculadora instance = new Calculadora();
-        double expResult = 0.0;
+        double expResult = 2;
         double result = instance.dividir(x, y);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }
