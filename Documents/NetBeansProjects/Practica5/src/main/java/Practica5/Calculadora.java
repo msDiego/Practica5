@@ -10,24 +10,28 @@ public class Calculadora implements ICalculadora {
     @Override
     public double sumar(double x, double y) {
         double resultado = 0;
+        resultado = x + y;
         return resultado;
     }
 
     @Override
     public double restar(double x, double y) {
         double resultado = 0;
+        resultado = x - y;
         return resultado;
     }
 
     @Override
     public double multiplicar(double x, double y) {
         double resultado = 0;
+        resultado = x * y;
         return resultado;
     }
 
     @Override
     public double dividir(double x, double y) {
         double resultado = 0;
+        resultado = x / y;
         return resultado;
     }
 
