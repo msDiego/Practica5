@@ -48,4 +48,8 @@ Método dividir:
 
 <img width="614" alt="testDividir" src="https://user-images.githubusercontent.com/91744554/168335335-1b0a349e-d792-4c49-8492-cd46e5d0b6b1.png">
 
+Nuestro diagrama con las ramas del proyecto y commits es el siguiente:
+
+![WhatsApp Image 2022-05-15 at 12 50 07 PM](https://user-images.githubusercontent.com/91744554/168492696-d3a3a88b-3025-4700-bfa5-9dcb212658ef.jpeg)
+
 
